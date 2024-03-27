@@ -4,8 +4,8 @@ import PrimaryButton from "../PrimaryButton";
 
 export default function LandingPage() {
     return (
-        <div className="h-dvh bg-hero bg-white bg-blend-lighten bg-opacity-15 bg-cover bg-center md:relative flex md:block">
-            <div>
+        <div className="h-dvh justify-center items-center bg-hero bg-white bg-blend-lighten bg-opacity-15 bg-cover bg-center relative flex md:block">
+            <div className="">
                 <Navbar />
                 <hr className="hidden md:block md:mx-16 border-t-black" />
                 <div className="h-full w-full">
