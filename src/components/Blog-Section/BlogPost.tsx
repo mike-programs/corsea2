@@ -6,8 +6,8 @@ export default function BlogPost() {
         <div className="flex justify-center">
             <div className="md:flex md:gap-3">
                 {blogPosts.map((blogPost, index) => (
-                    <div className="flex flex-col relative">
-                        <Image key={index} src={blogPost.image} alt="blog post image" height={400} width={400} />
+                    <div className="flex flex-col relative" key={index}>
+                        <Image src={blogPost.image} alt="blog post image" height={400} width={400} />
                         <div className="uppercase text-[.6rem] flex justify-center gap-1 my-2">
                             <p>fashion</p>
                             <Image src='/icons/separator.svg' alt='divider image' width={5} height={5} />
