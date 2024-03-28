@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+*{
+    background-color: black;
+}
+
 @layer components{
     .max-width{
         @apply max-w-[130rem] mx-auto

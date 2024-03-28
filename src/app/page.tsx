@@ -1,12 +1,12 @@
-import ArtistSection from "@/components/Artist-Section/ArtistSection";
-import BlogSection from "@/components/Blog-Section/BlogSection";
-import CategorySection from "@/components/Category-Section/CategorySection";
-import ExploreSection from "@/components/Explore-Section/ExploreSection";
-import Footer from "@/components/Footer/Footer";
-import LandingPage from "@/components/Landing-Page/LandingPage";
-import LogoSection from "@/components/Logo-Section/LogoSection";
-import NewsLetter from "@/components/Newsletter-section/NewsLetter";
-import SocialMedia from "@/components/Social-Media-Section/SocialMedia";
+import ArtistSection from "@/components/artist-section/ArtistSection";
+import BlogSection from "@/components/blog-section/BlogSection";
+import CategorySection from "@/components/category-section/CategorySection";
+import ExploreSection from "@/components/explore-section/ExploreSection";
+import Footer from "@/components/footer/Footer";
+import LandingPage from "@/components/landing-page/LandingPage";
+import LogoSection from "@/components/logo-section/LogoSection";
+import NewsLetter from "@/components/newsletter-section/NewsLetter";
+import SocialMedia from "@/components/social-media-section/SocialMedia";
 
 export default function Home() {
   return (

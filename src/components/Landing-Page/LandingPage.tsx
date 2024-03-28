@@ -1,4 +1,4 @@
-import Navbar from "./Navbar";
+import Navbar from "@components/Landing-Page/Navbar";
 import Image from "next/image";
 import PrimaryButton from "../PrimaryButton";
 
